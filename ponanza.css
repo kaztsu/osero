@@ -1,0 +1,68 @@
+/*css*/
+.box{
+  height:300px;
+  display: flex;
+  flex-direction:row;
+}
+.box2{
+  display: none;
+  }
+.bord{
+    display: grid;
+    grid-template-columns: repeat(8,67px);
+    grid-template-rows: repeat(8,67px);
+    width: 700px;
+    height: 540px;
+    }
+.masu{
+        flex-direction: row;
+        display: flex;
+        justify-content: stretch;
+        background-color: #10d020;
+    Å@Å@font-family: Mincho, serif;
+        padding: 0;
+        margin: 0px;
+        display: inline-block;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        width: 66px;
+        height: 66px;
+       }
+.K{
+  background-image: url("maru.svg");
+  background-repeat: no-repeat;
+        background-color: #10d020;
+        padding: 0;
+        margin: 0px;
+        display: inline-block;
+        background-size:contain;
+        /*width: 70px;*/
+        /*height: 70px;*/
+       
+}
+.W{
+  background-image: url("marusiro.svg");
+  background-repeat: no-repeat;
+        background-color: #10d020;
+        padding: 0;
+        margin: 0px;
+        display: inline-block;
+        background-size:contain;
+}
+.ten{
+  /*background-image: url("ten.png");*/
+  background-repeat: no-repeat;
+  background-color: #10d020;
+  padding: 0;
+  margin: 0px;
+  display: inline-block;
+  background-size:contain;
+  filter:brightness(150%);
+  width: 66px;
+  height: 66px;
+  border-style: solid;
+        border-width: 1px;
+        border-color: black;
+}
+
